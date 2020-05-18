@@ -16,6 +16,15 @@
 	-moz-box-sizing: content-box;
 	box-sizing: content-box
 }
+.tl-slide .tl-slide-content-container .tl-slide-content .tl-text {
+	width: 70%;
+	max-width: 70%;
+	min-width: 120px;
+	padding: 0 60px 0 60px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: left
+}
 .tl-timenav {
 	width: 100%;
 	background-color: #f2f2f2;
