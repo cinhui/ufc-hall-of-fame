@@ -1,0 +1,123 @@
+.tl-timeline {
+	width: 100%;
+	height: 100%;
+	font-size: 16px;
+	line-height: normal;
+	overflow: hidden;
+	position: relative;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+	background-color: #fff;
+	color: #737373;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box
+}
+.tl-timenav {
+	width: 100%;
+	background-color: #f2f2f2;
+	position: relative;
+	overflow: hidden;
+	border-top: 1px solid #e5e5e5
+}
+.tl-timegroup .tl-timegroup-message {
+	color: #000000;
+	text-shadow: #fff 0 2px 2px;
+	margin-left: 80px
+}
+.tl-text {
+	width: 50%;
+	max-width: 50%;
+	min-width: 120px;
+	padding: 0 20px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: left;
+	text-shadow: none;
+	/* color: #000000; */
+	color: #FFF;
+}
+.tl-text p {
+	/* color: #000000; */
+	color: #FFF;
+}
+
+.tl-text h2.tl-headline-title, .tl-text h2.tl-headline {
+	margin-top: 0;
+	color: #FFF;
+}
+
+.tl-text .tl-headline-date, .tl-text h3.tl-headline-date {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 15px;
+	line-height: 15px;
+	font-weight: 400;
+	margin: 0 0 3px;
+	color: #b3b3b3
+	/* color: #000000; */
+}
+.tl-text .tl-headline-date small, .tl-text h3.tl-headline-date small {
+	font-size: 15px;
+	line-height: 15px;
+	font-weight: 400;
+	color: #b3b3b3
+	/* color: #000000; */
+}
+.tl-text .tl-text-date {
+	display: inline-block;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 400;
+	margin-top: 10px;
+	font-size: 12px;
+	color: #b3b3b3
+	/* color: #000000; */
+}
+.tl-timeaxis-background {
+	height: 39px;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background-color: #000000;
+	border-top: 1px solid #e5e5e5;
+	z-index: 2
+}
+
+.tl-timenav .tl-attribution {
+	cursor: pointer;
+	z-index: 9;
+	position: absolute;
+	bottom: 2px;
+	left: 0;
+	font-size: 10px;
+	line-height: 10px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif!important;
+	background-color:#000000;
+	padding: 3px
+}
+
+.tl-timenav .tl-attribution a {
+	color: #ccc
+}
+
+.tl-timenav .tl-attribution a:hover {
+	color: #ccc;
+	text-decoration: none
+}
+.tl-timenav .tl-attribution a:hover .tl-knightlab-logo {
+	background-color: #c34528
+}
+.tl-timenav .tl-attribution .tl-knightlab-logo {
+	display: inline-block;
+	vertical-align: middle;
+	height: 8px;
+	width: 8px;
+	margin-right: 3px;
+	background-color: #c34528;
+	transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-webkit-transform: rotate(45deg)
+}
